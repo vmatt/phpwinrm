@@ -4,6 +4,11 @@
 
 This PHP script provides a lightweight client for executing commands on Windows machines using the Windows Remote Management (WinRM) protocol. It allows you to run commands remotely on Windows systems from a PHP application, which can be useful for various system administration and automation tasks.
 
+## Requirements
+- PHP 8.0+ (might work with older versions, haven't tested)
+- php-curl
+   - _no need for SoapClient or any other fancy HTTP libs_
+
 ## Features
 
 - Execute commands on remote Windows machines
